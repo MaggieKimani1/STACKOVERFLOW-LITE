@@ -1,0 +1,26 @@
+.topnav {
+  
+  overflow: hidden;
+  background-color: rgb(204, 202, 202);
+}
+
+/* ul.topnav li {float: right;} */
+
+.topnav li a {
+  display: block;
+  color: black;
+  font-size: 30px;
+ 
+  text-decoration: none;
+}
+
+.topnav li a:hover:not(.active) {background-color: rgb(231, 231, 231);}
+
+.topnav li a.active {background-color: rgb(138, 141, 139);}
+
+
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
