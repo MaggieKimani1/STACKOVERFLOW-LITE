@@ -23,17 +23,43 @@
         <a href="#">PUBLIC</a>
        
       </div>
-
-    <div class = "hr">
-      <h2>Frequently Asked Questions</h2>
-
-      <hr>
-      <hr>
-      <hr>
-      <hr>
-      <hr>
-    </div>
     
+      <h1>Frequently Asked Questions</h1>
+      <hr>
+    <div class="q-body">
+      <h3>How to pass args from sagaMiddleware to action watcher</h3>
+      <p>How to pass args from sagaMiddleware to action watcher</p><br><br>
+      <h3>How to pass args from sagaMiddleware to action watcher</h3>
+      <p>How to pass args from sagaMiddleware to action watcher</p><br><br>
+      <h3>How to pass args from sagaMiddleware to action watcher</h3>
+      <p>How to pass args from sagaMiddleware to action watcher<p>
+      </div>
+      <button class="question-button" onclick="openForm()" style="float:right;">Ask Question</button>
+
+<div class="form-popup" id="myForm">
+  <form  class="form-container">
+    <h3>Describe your Question</h3>
+
+    <textarea rows="4" cols="30">
+        
+        </textarea>
+    <button type="submit" class="btn">Submit</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+    
+      </div>>
     <div class="footer">
       <p>StackOverflow-lite.com</p>
     </div>
